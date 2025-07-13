@@ -75,6 +75,8 @@ body{
 .placeholder-reviews{
     display: flex;
     gap: 20px;
+    justify-content: center;
+    text-align: center;
 }
 .reviews-1, .reviews-2, .reviews-3{
     border: 2px solid black;
@@ -154,4 +156,70 @@ main textarea{
     font-weight: 500;
     border: 15px solid #fcff35;
     border-radius: 100px;    
+}
+.Feet{
+    background-color: azure;
+}
+.Feet hr{
+    background-color: azure;
+}
+.feet-1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    width: 650px;
+    min-width: 100;
+    background-color: azure;
+    
+}
+.feet-1 h1{
+    color: #4E47FF;
+    font-size: 50px;
+    margin-left: 60%;
+}
+.feet-2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    width: 650px;
+}
+.feet-2 h6{
+    margin-top: -20px;
+    margin-left: 60%;
+    color: gray;
+}
+.In-Action{
+    background-color: azure;
+    display: flex;
+    border: 15px solid azure;
+    border-radius: 45px;
+    gap: 200px;
+}
+.section-1 h1{
+    margin-top: 50px;
+    font-size: 50px;
+}
+.section-1 p{
+    height: 30px;
+    width: 400px;
+    font-size: large;
+    color: gray;
+}
+.In-Action-img{
+    border: 15px solid #080808;
+    background-color: #080808;
+    border-radius: 20px;
+    height: -100px;
+}
+.redirect{
+    background-color: #4E47FF;
+    border: 15px solid #4E47FF;
+    border-radius: 20px;
+}
+.redirect:hover{
+    background-color: #fcff35;
+    border: 15px solid #fcff35;
+    border-radius: 20px;
 }
